@@ -24,7 +24,7 @@ jobs:
     - name: Install dependencies
       run: poetry install --with docs
     - name: Build HTML
-      run: make -C docs/ html
+      run: poetry run make -C docs/ html
     - name: Upload artifacts
       uses: actions/upload-artifact@v4
       with:
