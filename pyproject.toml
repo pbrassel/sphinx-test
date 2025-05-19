@@ -5,7 +5,7 @@ description = ""
 authors = [
     {name = "pbrassel",email = "52356233+pbrassel@users.noreply.github.com"}
 ]
-readme = "docs/README.md"
+readme = "docs/README.rst"
 requires-python = ">=3.12"
 dependencies = [
 ]
